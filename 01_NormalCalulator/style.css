@@ -1,0 +1,91 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: xyz;
+}
+html,body{
+   height: 100%;
+   width: 100%;
+}
+#main{
+   height: 100%;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+#inputs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height:10%;
+    gap: 10px;
+    /* background-color: red; */
+}
+#inputs input{
+    border: 3px groove crimson;
+    font-size: 2vw;
+    border-radius: 5px;
+   font-family: 'Product Sans';
+    font-weight: 500;
+}
+#operator{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+    /* background-color: red; */
+}
+#operator button{
+   
+    /* width: 5vw;
+    font-size: 2vw; */
+    margin-top: 30px;
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border:3px solid rgb(137, 242, 242);
+    outline: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    background-color: orange;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    font-family: 'Product Sans';
+    font-weight: 500;
+}
+#operator button::after{
+    content: "";
+    position: absolute;
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+    background-color: cadetblue;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    z-index: -1;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1.5s;
+}
+#operator button:hover::after{
+    transform: translate(-50%,-50%) scale(3);
+}
+
+#displayd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height:10%;
+}
+#display{
+    border: 3px groove crimson;
+    width: 10%;
+    height: 70%;
+   font-family: 'Product Sans';
+   font-weight: 500;
+}

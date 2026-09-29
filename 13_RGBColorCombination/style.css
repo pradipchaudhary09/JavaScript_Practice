@@ -1,0 +1,75 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family:'Product Sans';
+}
+html,body{
+   height: 100%;
+   width: 100%;
+}
+main{
+   height: 100%;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.RGBbox{
+    height: 35%;
+    width: 20%;
+    /* background-color: red; */
+    /* border-radius: 30px; */
+    -webkit-box-shadow: 10px 10px 23px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 23px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 23px 0px rgba(0,0,0,0.75);
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    flex-direction: column;
+    /* gap: 10px; */
+    padding-top: 25px;
+}
+.RGB{
+    /* background-color: blue; */
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.RGBbox input{
+    /* height: 100%; */
+    width: 86%;
+}
+.CopyColorDiv{
+    width: 100%;
+    height: 40%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.CopyColorDiv h3{
+    width: 50%;
+    height: 50%;
+    border-radius: 8px;
+    background-color: #EFF3EA;
+    font-size: 16px;
+    font-weight: 100;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    padding-left: 6px;
+}
+.Copybtn{
+    /* font-size: 20px; */
+    padding: 13px;
+    background-color: #074799;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+
+}

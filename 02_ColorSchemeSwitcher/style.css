@@ -1,0 +1,51 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Phluff Test";
+}
+
+html,body{
+   height: 100%;
+   width: 100%;
+}
+#main{
+   height: 100%;
+   width: 100%;
+}
+#headin1{
+    /* background-color: red; */
+    width: 100vw;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    /* margin-top: 10%; */
+}
+#buttons{
+    /* background-color: red; */
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 0.3%;
+}
+.button{
+    height: 130px;
+    width: 130px;
+    outline: none;
+    border: 3px solid;
+}
+#btn1{
+    background-color: gray;
+}
+#btn2{
+    background-color: white;
+}
+#btn3{
+    background-color: blue;
+}
+#btn4{
+    background-color: yellow;
+}

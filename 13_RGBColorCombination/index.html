@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGBColorCombination</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="RGBbox">
+            <div class="RGB"><label for="R">R</label>
+                <input type="range" min="0" max="255" id="R" >
+            </div>
+            <div class="RGB"><label for="G">G</label>
+                <input type="range" min="0" max="255" id="G">
+            </div>
+            <div class="RGB"> <label for="B">B</label>
+                <input type="range" min="0" max="255" id="B">
+            </div>
+            <div class="CopyColorDiv">
+                <h3 id="mainrgb">rgb(<span class="sp">0</span>,<span class="sp">0</span>,<span class="sp">0</span>)</h3>
+                <button class="Copybtn">Copy Color Code</button>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

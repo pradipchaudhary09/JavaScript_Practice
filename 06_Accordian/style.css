@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Product Sans';
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#myH1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    margin-top: 50px;
+    
+}
+h1 {
+    font-size: 24px;
+}
+
+.cointainer {
+    width: 70%;
+    /* background-color: red; */
+}
+
+.accordian-items {
+    cursor: pointer;
+    /* background-color: aqua; */
+    border-radius: 10px;
+    margin-top: 10px;
+    -webkit-box-shadow: -1px -1px 17px 0px rgba(166, 136, 166, 1);
+    -moz-box-shadow: -1px -1px 17px 0px rgba(166, 136, 166, 1);
+    box-shadow: -1px -1px 17px 0px rgba(166, 136, 166, 1);
+}
+
+.header {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button {
+    font-size: 30px;
+    margin-right: 10px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+.content {
+    display: none;
+}
+
+.content p {
+    padding: 10px;
+}
+
+.active{
+    display: block;
+}
+
+#openPopup{
+    background-color: rgb(21, 142, 223);
+    margin:15px ;
+    padding: 6px 10px;
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 15px;
+    position: absolute;
+}
+
+.myPopup{
+    background-color: rgb(21, 142, 223);
+    padding: 16px;
+    padding-top: 25px;
+    border-radius: 20px;
+    /* height: 300px; */
+    width: 60%;
+
+}
+
+.popupInput{
+    width: 100%;
+    padding: 8px 6px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+        
+}
+
+.myPopup h2{
+    font-size: 16px;
+    color: white;
+}
+
+.popupParent{
+    position: absolute;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.85);
+    width: 100vw;
+    height: 100vh;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    display: none;
+}
+
+.btnInnerAdd{
+    background-color: rgb(255, 255, 255);
+    margin-block: 10px;
+    padding: 6px 10px;
+    font-size: 10px;
+    color:rgb(21, 142, 223);
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+/* #mainheader{
+    background-color: red;
+    width: 100%;
+    height: 7.1%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+#maintitle{
+    width: 100%;
+    border: 3px solid #F2AE66;
+    border-radius: 5px;
+    background-color: #E82561;
+} */

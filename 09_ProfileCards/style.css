@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family:"Montserrat", serif;
+}
+html,body{
+   height: 100%;
+   width: 100%;
+}
+main{
+   height: 100%;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0 20px;
+   background: rgb(2,0,36);
+   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(116,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+#profilebox{
+    height: 60%;
+    width: 25%;
+    background-color:#F4EDD3;
+    border-radius: 20px;
+    padding-top: 20px;
+    -webkit-box-shadow: 10px 10px 23px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 23px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 23px 0px rgba(0,0,0,0.75);
+}
+.Manipultionbtn{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    font-size: 2vw;
+    border: none;
+    outline: none;
+    background-color: #E1EACD;
+}
+#profilephotoraper{
+    /* background-color: red; */
+    width: 100%;
+    height: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profilephoto{
+    height: 140px;
+    width: 140px;
+    background-color: blue;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profilephoto img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+ #FullNameAndRole{
+    width: 100%;
+    height: 35%;
+    /* background-color: red; */
+    padding-bottom: 0.1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#FullNameAndRole h3{
+    margin-top: 10px;
+    font-size: 1.5vw;
+    width: fit-content;
+
+}
+#FullNameAndRole h3:nth-child(2){
+    color: #EFF3EA;
+    font-size: 2vh;
+    margin-top: 40px;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    padding: 8px 16px;
+    border-radius: 50px;
+}
+#caption{
+    width: 100%;
+    height: 35%;
+    /* background-color: red; */
+    padding: 6px;
+}
+#caption p{
+    font-size: 12px;
+    text-align: center;
+}

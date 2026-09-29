@@ -1,0 +1,47 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family:'Product Sans';
+}
+html,body{
+   height: 100%;
+   width: 100%;
+   overflow: hidden;
+}
+main{
+   height: 100%;
+   width: 100%;
+}
+
+main img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.2s;
+}
+
+button{
+    position: absolute;
+    /* left: 0; */
+    top: 45%;
+    /* transform: translate(-50%); */
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    font-size: 2vw;
+}
+#prev{
+    left: 20px;
+}
+#next{
+    right: 20px;
+}
+.fade-out{
+    opacity: 0.3;
+    scale: 1.1;
+    /* width: 0; */
+}
